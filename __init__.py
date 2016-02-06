@@ -15,6 +15,8 @@ bl_info = {
     "category": "Audio",
     }
 
+
+# Source: http://wiki.blender.org/index.php/Dev:Py/Scripts/Cookbook/Code_snippets/Multi-File_packages
 # To support reload properly, try to access a package var,
 # if it's there, reload everything
 if "bpy" in locals():
